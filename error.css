@@ -1,0 +1,59 @@
+* 
+{
+  padding: 0;
+  margin:0;
+}
+
+body 
+{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+   background-color:rgb(20, 22, 29);
+}
+
+.error 
+{
+  color:red;
+}
+
+.main--div 
+{
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+  background: #A9AFE8;
+  background: linear-gradient(135deg, #A9AFE8, #219ED3);
+  width: 800px;
+  height: 250px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.tao--div,.tur--div
+{
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+.turkishres,.taobaores
+{
+  
+  font-size: 1.65em;
+}
+
+.tao--div button,.tur--div button
+{
+  background-color: rgb(209, 227, 233);
+  padding: 6px;
+
+}
+
+.tao--div input,.tur--div input
+{
+  height: 30px;
+  text-indent: 5px;
+}
